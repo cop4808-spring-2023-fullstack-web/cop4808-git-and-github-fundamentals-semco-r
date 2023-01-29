@@ -1,3 +1,6 @@
+Hello, Welcome to my repository. My name is Juan Rivera.
+
+
 # :wave: The Basics of GitHub 
 
 ## 🤓 Course overview and learning outcomes 
