@@ -1,4 +1,4 @@
-Hello, Welcome to my repository. My name is Juan Rivera.
+Hello, Welcome to my repository. My name is Juan Rivera
 
 
 # :wave: The Basics of GitHub 
