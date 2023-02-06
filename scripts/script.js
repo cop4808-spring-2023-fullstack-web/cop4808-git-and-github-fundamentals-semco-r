@@ -41,6 +41,12 @@ function clickButton() {
             } else if(buttons[i].classList.contains('sign')) {
                 inputSign(displayValue);
                 updateDisplay();
+            } else if(buttons[i].classList.contains('raised')) {
+                inputRaised(displayValue);
+                updateDisplay();
+            } else if(buttons[i].classList.contains('raisedc')) {
+                inputRaisedc(displayValue);
+                updateDisplay();
             } else if(buttons[i].classList.contains('clear'))
                 clearDisplay();
                 updateDisplay();
@@ -145,6 +151,14 @@ function inputPercent(num) {
 
 function inputSign(num) {
     displayValue = (num * -1).toString();
+}
+
+function inputRaised(num) {
+    displayValue = ( num * num).toString();
+}
+
+function inputRaisedc(num) {
+    displayValue = ( num * num * num).toString();
 }
 
 function clearDisplay() {

@@ -20,7 +20,7 @@ html {
     border-radius: 4px;
     display: grid;
     grid-template-columns: repeat(4, 100px);
-    grid-template-rows: minmax(100px, auto) repeat(5, 80px);
+    grid-template-rows: minmax(100px, auto) repeat(6, 80px);
     gap: 2px;
 }
 
@@ -109,10 +109,18 @@ button {
     background-color: rgb(123, 189, 255);
 }
 
-.extra {
+.raised {
     background-color: blueviolet;
 }
 
-.extra:active {
+.raised:active {
+    background-color: rgb(154, 75, 228);
+}
+
+.raisedc {
+    background-color: blueviolet;
+}
+
+.raisedc:active {
     background-color: rgb(154, 75, 228);
 }
