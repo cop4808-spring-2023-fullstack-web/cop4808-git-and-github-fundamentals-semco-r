@@ -47,6 +47,12 @@ function clickButton() {
             } else if(buttons[i].classList.contains('raisedc')) {
                 inputRaisedc(displayValue);
                 updateDisplay();
+            } else if(buttons[i].classList.contains('oneover')) {
+                inputOneover(displayValue);
+                updateDisplay();
+            } else if(buttons[i].classList.contains('absolute')) {
+                inputAbsolute(displayValue);
+                updateDisplay();
             } else if(buttons[i].classList.contains('clear'))
                 clearDisplay();
                 updateDisplay();
@@ -159,6 +165,14 @@ function inputRaised(num) {
 
 function inputRaisedc(num) {
     displayValue = ( num * num * num).toString();
+}
+
+function inputOneover(num) {
+    displayValue = ( 1/num).toString();
+}
+
+function inputAbsolute(num) {
+    if(num<0)displayValue=(num*-1).toString();
 }
 
 function clearDisplay() {
