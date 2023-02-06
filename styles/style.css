@@ -124,3 +124,19 @@ button {
 .raisedc:active {
     background-color: rgb(154, 75, 228);
 }
+
+.oneover {
+    background-color: blueviolet;
+}
+
+.oneover:active {
+    background-color: rgb(154, 75, 228);
+}
+
+.absolute {
+    background-color: blueviolet;
+}
+
+.absolute:active {
+    background-color: rgb(154, 75, 228);
+}
