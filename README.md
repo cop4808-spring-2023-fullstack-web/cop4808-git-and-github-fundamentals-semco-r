@@ -1,5 +1,6 @@
 Hello, Welcome to my repository. My name is Juan Rivera
 
+![calculator](https://user-images.githubusercontent.com/114449925/216857947-17e55d26-6f27-4e2e-a5e1-a867c709e278.gif)
 
 # :wave: The Basics of GitHub 
 
